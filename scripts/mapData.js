@@ -46,8 +46,8 @@
 		var obeliskGroup = L.layerGroup();
 		var travelGuildGroup = L.layerGroup();
 		var adminCityGroup = L.layerGroup();
-		var tavernGroup = L.layerGroup();
-		var marketplaceGroup = L.layerGroup();
+		var hubGroup = L.layerGroup();
+		var portalGroup = L.layerGroup();
 
 		
 		//Set the groups
@@ -55,8 +55,8 @@
 			"Locations - Obelisks": obeliskGroup,
 			"Locations - Travel Guild": travelGuildGroup,
 			"Locations - Cities": adminCityGroup,
-			"Locations - Taverns/Inns": tavernGroup,
-			"Locations - Markets": marketplaceGroup,
+			"Locations - RP Hubs": hubGroup,
+			"Locations - Markets": portalGroup,
 		};
 
 		//Location - Obelisks
@@ -87,26 +87,25 @@
 		L.marker([-838,604.25], {icon: adminCityIcon}).bindPopup("The Tower of Order").addTo(adminCityGroup),
 		L.marker([-1185.25,627], {icon: adminCityIcon}).bindPopup("The University of the Arcane").addTo(adminCityGroup);
 
-		//Locations - Taverns/Inns
-		L.marker([-1033.25,1599], {icon: tavernIcon}).bindPopup("Tavern: The Broken Sun").addTo(tavernGroup),
-		L.marker([-894,800], {icon: tavernIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/WolfTribeVillage.jpg' width='300'></img><p align='center'>Tavern and Inn: Wolf Tribe Village</p>").addTo(tavernGroup),
-		L.marker([-1051,937], {icon: tavernIcon}).bindPopup("Tavern: Trader's Rest").addTo(tavernGroup);
+		//Locations - Rp Hubs
+		L.marker([-1000,1000], {icon: hubIcon}).bindPopup("palceholder").addTo(hubGroup);
 
-		//Locations - Services and Shopping
-		L.marker([-1014,1583.5], {icon: marketIcon}).bindPopup("Tortuga: Marketplace").addTo(marketplaceGroup);
-		L.marker([-929.25,782.25], {icon: marketIcon}).bindPopup("Wolf Tribe: Blacksmith, Marketplace, Pets").addTo(marketplaceGroup);
+		//Locations - POrtal destinations
+		L.marker([-1000,1000], {icon: portalIcon}).bindPopup("placeholder").addTo(portalGroup);
 
 		var hash = new L.Hash(map);
 		//Group Overlay Combiner
 		var fastTravelLocations = {
 			"Fast Travel": {
 				"<img src='data/images/icons/obelisk.png' width='16' height='16'></img> Obelisks": obeliskGroup,
+				"<img src='data/images/icons/portalIcon.png' width='16' height='16'></img> Portal Destinations": portalGroup,
 				"<img src='data/images/icons/TravelGuild.png' width='16' height='16'></img> Travel Guild": travelGuildGroup
 			}
 		}	
 		var groupedLocations = {
 			"Locations": {
-			 	"<img src='data/images/icons/admincity.png' width='16' height='16'></img> Cities": adminCityGroup
+			 	"<img src='data/images/icons/admincity.png' width='16' height='16'></img> Cities": adminCityGroup,
+			 	"<img src='data/images/icons/hubcity.png' width='16' height='16'></img> RP Hubs": hubGroup
 			}
 		}
 

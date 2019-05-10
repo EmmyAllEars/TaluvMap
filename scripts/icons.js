@@ -24,6 +24,14 @@ var adminCityIcon = L.icon({
 	popupAnchor:	[0, -10]
 });
 
+var hubIcon = L.icon({
+	iconUrl: 'data/images/icons/hubcity.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
 var tavernIcon = L.icon({
 	iconUrl: 'data/images/icons/xIcon.png',
 				
