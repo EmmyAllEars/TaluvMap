@@ -17,18 +17,20 @@
 
 /* Change Icons */
 
-/*div.leaflet-control-layers:first-child a.leaflet-control-layers-toggle{
-	background-image: url('../data/images/icons/icon_ironstone.png');
+div.leaflet-control-layers:first-child a.leaflet-control-layers-toggle{
+	background-image: url('../data/images/icons/TravelGuild.png');
+  background-size:contain;
 }
 div.leaflet-control-layers:nth-child(2) a.leaflet-control-layers-toggle{
-  background-image: url('../data/images/icons/icon_armorer.png');
+  background-image: url('../data/images/icons/admincity.png');
+  background-size:contain;
 }
-div.leaflet-control-layers:nth-child(3) a.leaflet-control-layers-toggle{
+/*div.leaflet-control-layers:nth-child(3) a.leaflet-control-layers-toggle{
 	background-image: url('../data/images/icons/icon_tanner.png');
-}*/
+}
 div.leaflet-control-layers:nth-child(4) a.leaflet-control-layers-toggle{
 	background-image: url('../data/images/icons/icon_vista.png');
-}
+}*/
 
 
 /* Desktop Only Toggle Button Styles */
@@ -64,18 +66,18 @@ div.leaflet-control-layers:nth-child(4) a.leaflet-control-layers-toggle{
     padding-top: 5px;
     width: 110px;
   }
-/*  div.leaflet-control-layers:first-child a.leaflet-control-layers-toggle::after{
-    content: 'Resources';
+  div.leaflet-control-layers:first-child a.leaflet-control-layers-toggle::after{
+    content: 'Fast Travel';
   }
   div.leaflet-control-layers:nth-child(2) a.leaflet-control-layers-toggle::after{
-    content: 'Thralls';
-  }
-  div.leaflet-control-layers:nth-child(3) a.leaflet-control-layers-toggle::after{
-    content: 'Named Thralls';
-  }*/
-  div.leaflet-control-layers:nth-child(4) a.leaflet-control-layers-toggle::after{
     content: 'Locations';
   }
+  /*div.leaflet-control-layers:nth-child(3) a.leaflet-control-layers-toggle::after{
+    content: 'Named Thralls';
+  }
+  div.leaflet-control-layers:nth-child(4) a.leaflet-control-layers-toggle::after{
+    content: 'Locations';
+  }*/
   .leaflet-control-layers .leaflet-control-layers-group-label{
     	margin-bottom: 8px;
    }

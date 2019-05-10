@@ -339,7 +339,7 @@
 
 .leaflet-control-layers {
 	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-	background-image: url("../data/images/site/blank_landmass.png");
+	background-image: url("../data/images/site/BG_darkburlap.png");
 	border-radius: 15px;
 	}
 .leaflet-control-layers-toggle {
@@ -391,7 +391,7 @@
 
 /* Default icon URLs */
 .leaflet-default-icon-path {
-	background-image: url(images/marker-icon.png);
+	background-image: url(images/icons/xIcon.png);
 	}
 
 
@@ -510,24 +510,29 @@
 	border-color: #000;
 	}
 
+.leaflet-popup-content p {
+	font-weight: bold;
+	font-size:1.2em;
+}
+
 .leaflet-popup a:link {
-	text-decoration: none;
-	color: #f5c388;
+	text-decoration: underline;
+	color: #758330;
 }
 
 .leaflet-popup a:visited {
 	text-decoration: none;
-	color: #f5c388;
+	color: #758330;
 }
 
 .leaflet-popup a:hover {
 	text-decoration: underline;
-	color: #FFFFFF;
+	color: #acb483;
 }
 
 .leaflet-popup a:active {
 	text-decoration: underline;
-	color: #FFFFFF;
+	color: #acb483;
 }
 
 
@@ -541,7 +546,7 @@
 	width: 18px;
 	height: 14px;
 	font: 16px/14px 'Roboto', sans-serif;
-	color: #fff;
+	color: #acb483;
 	text-decoration: none;
 	font-weight: bold;
 	text-align: center;

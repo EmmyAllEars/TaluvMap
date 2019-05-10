@@ -23,3 +23,43 @@ var adminCityIcon = L.icon({
 	iconAnchor: [32,32],
 	popupAnchor:	[0, -10]
 });
+
+var tavernIcon = L.icon({
+	iconUrl: 'data/images/icons/xIcon.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var templeIcon = L.icon({
+	iconUrl: 'data/images/icons/starIcon.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var marketIcon = L.icon({
+	iconUrl: 'data/images/icons/gemIcon.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var arenaIcon = L.icon({
+	iconUrl: 'data/images/icons/xIcon.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
+
+var portalIcon = L.icon({
+	iconUrl: 'data/images/icons/portalIcon.png',
+				
+	iconSize:	[32,32],
+	iconAnchor: [16,16],
+	popupAnchor:	[0, -10]
+});
