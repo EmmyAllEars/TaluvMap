@@ -17,18 +17,13 @@
 
 /* Change Icons */
 
-/*div.leaflet-control-layers:first-child a.leaflet-control-layers-toggle{
-	background-image: url('../data/images/icons/icon_ironstone.png');
+div.leaflet-control-layers:first-child a.leaflet-control-layers-toggle{
+  background-image: url('../data/images/icons/TravelGuild.png');
+  background-size:contain;
 }
 div.leaflet-control-layers:nth-child(2) a.leaflet-control-layers-toggle{
-  background-image: url('../data/images/icons/icon_armorer.png');
-}
-div.leaflet-control-layers:nth-child(3) a.leaflet-control-layers-toggle{
-	background-image: url('../data/images/icons/icon_tanner.png');
-}*/
-div.leaflet-control-layers:nth-child(4) a.leaflet-control-layers-toggle{
-	background-image: url('../data/images/icons/icon_vista.png');
-}
+  background-image: url('../data/images/icons/admincity.png');
+  background-size:contain;
 
 
 /* Desktop Only Toggle Button Styles */

@@ -74,6 +74,7 @@
 		//Locations - Travel Guild
 		L.marker([-1446.5,725.25], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Shattered Bridge").addTo(travelGuildGroup),
 		L.marker([-1326.75,1139.5], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Lookout's Hook").addTo(travelGuildGroup),
+		L.marker([-1110.25,671.25], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Muriela's Hope").addTo(travelGuildGroup),
 		L.marker([-1154.25,1358.5], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/TG-BayofHulks.jpg' width='300'></img><p align='center'>Travel Guild: Bay of Hulks</p>").addTo(travelGuildGroup),
 		L.marker([-1014,1583.5], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Tortuga").addTo(travelGuildGroup),
 		L.marker([-941,790.75], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/TG-WolfTribe.jpg' width='300'></img><p align='center'>Travel Guild: Wolf Tribe Village</p>").addTo(travelGuildGroup),
@@ -82,7 +83,9 @@
 		//Locations - Admin Cities
 		L.marker([-1023.25,1589], {icon: adminCityIcon}).bindPopup("Tortuga").addTo(adminCityGroup),
 		L.marker([-929.25,782.25], {icon: adminCityIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/WolfTribeVillage.jpg' width='300'></img><p align='center'>Wolf Tribe Village <a href='https://www.fromashesrisen.com/wiki/Wolf_Tribe_Village'>(Wiki link)</a></p><ul><li>Blacksmith (Character)</li><li>Tavern and Inn</li><li>Arena</li><li>Jhebbal Sag Shamanic Sanctuary</li><li>Vendors: All AoC, Pet Vendor, Weapons & Repair Kits</li></ul>").addTo(adminCityGroup),
-		L.marker([-1084.75,358.75], {icon: adminCityIcon}).bindPopup("Réalta Nua").addTo(adminCityGroup);
+		L.marker([-1084.75,358.75], {icon: adminCityIcon}).bindPopup("Réalta Nua").addTo(adminCityGroup),
+		L.marker([-838,604.25], {icon: adminCityIcon}).bindPopup("The Tower of Order").addTo(adminCityGroup),
+		L.marker([-1185.25,627], {icon: adminCityIcon}).bindPopup("The University of the Arcane").addTo(adminCityGroup);
 
 		//Locations - Taverns/Inns
 		L.marker([-1033.25,1599], {icon: tavernIcon}).bindPopup("Tavern: The Broken Sun").addTo(tavernGroup),
