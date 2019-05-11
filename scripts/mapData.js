@@ -88,7 +88,7 @@
 		L.marker([-1185.25,627], {icon: adminCityIcon}).bindPopup("The University of the Arcane").addTo(adminCityGroup);
 
 		//Locations - Rp Hubs
-		L.marker([-1010.25,502], {icon: hubIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/e/e4/Datura.png' width='300'></img><p align='center'>Wolf Tribe Village <a href='https://www.fromashesrisen.com/wiki/Poison_Kingdom_of_Datura'>(Wiki link)</a></p><ul><li>Map Room</li><li>Tavern, Inn, Hospital</li><li>Outdoor Market (DLC Armor/Decor, Materials, Alchemy, Milk, Sandstorm Masks)</li></ul>).addTo(hubGroup);
+		L.marker([-1010.25,502], {icon: hubIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/e/e4/Datura.png' width='300'></img><p align='center'>Poison Kingdom of Datura <a href='https://www.fromashesrisen.com/wiki/Poison_Kingdom_of_Datura'>(Wiki link)</a></p><ul><li>Map Room</li><li>Tavern, Inn, Hospital</li><li>Outdoor Market (DLC Armor/Decor, Materials, Alchemy, Milk, Sandstorm Masks)</li></ul>").addTo(hubGroup);
 
 		//Locations - POrtal destinations
 		L.marker([-1000,1000], {icon: portalIcon}).bindPopup("placeholder").addTo(portalGroup);
@@ -133,3 +133,4 @@
 		obeliskGroup.addTo(map);
 		adminCityGroup.addTo(map);
 		travelGuildGroup.addTo(map);
+		hubGroup.addTo(map);
