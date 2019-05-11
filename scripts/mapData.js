@@ -82,13 +82,13 @@
 			
 		//Locations - Admin Cities
 		L.marker([-1023.25,1589], {icon: adminCityIcon}).bindPopup("Tortuga").addTo(adminCityGroup),
-		L.marker([-929.25,782.25], {icon: adminCityIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/WolfTribeVillage.jpg' width='300'></img><p align='center'>Wolf Tribe Village <a href='https://www.fromashesrisen.com/wiki/Wolf_Tribe_Village'>(Wiki link)</a></p><ul><li>Blacksmith (Character)</li><li>Tavern and Inn</li><li>Arena</li><li>Jhebbal Sag Shamanic Sanctuary</li><li>Vendors: All AoC, Pet Vendor, Weapons & Repair Kits</li></ul>").addTo(adminCityGroup),
+		L.marker([-929.25,782.25], {icon: adminCityIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/WolfTribeVillage.jpg' width='300'></img><p align='center'>Wolf Tribe Village <a href='https://www.fromashesrisen.com/wiki/Wolf_Tribe_Village'>(Wiki link)</a></p><ul><li>Blacksmith (Character)</li><li>Map Room</li><li>Tavern and Inn</li><li>Arena</li><li>Jhebbal Sag Shamanic Sanctuary</li><li>Vendors: All AoC, Pet Vendor, Weapons & Repair Kits</li></ul>").addTo(adminCityGroup),
 		L.marker([-1084.75,358.75], {icon: adminCityIcon}).bindPopup("Réalta Nua").addTo(adminCityGroup),
 		L.marker([-838,604.25], {icon: adminCityIcon}).bindPopup("The Tower of Order").addTo(adminCityGroup),
 		L.marker([-1185.25,627], {icon: adminCityIcon}).bindPopup("The University of the Arcane").addTo(adminCityGroup);
 
 		//Locations - Rp Hubs
-		L.marker([-1000,1000], {icon: hubIcon}).bindPopup("palceholder").addTo(hubGroup);
+		L.marker([-1010.25,502], {icon: hubIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/e/e4/Datura.png' width='300'></img><p align='center'>Wolf Tribe Village <a href='https://www.fromashesrisen.com/wiki/Poison_Kingdom_of_Datura'>(Wiki link)</a></p><ul><li>Map Room</li><li>Tavern, Inn, Hospital</li><li>Outdoor Market (DLC Armor/Decor, Materials, Alchemy, Milk, Sandstorm Masks)</li></ul>).addTo(hubGroup);
 
 		//Locations - POrtal destinations
 		L.marker([-1000,1000], {icon: portalIcon}).bindPopup("placeholder").addTo(portalGroup);
