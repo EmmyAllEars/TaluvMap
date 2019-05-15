@@ -48,15 +48,17 @@
 		var adminCityGroup = L.layerGroup();
 		var hubGroup = L.layerGroup();
 		var portalGroup = L.layerGroup();
+		var universityGroup = L.layerGroup();
 
 		
 		//Set the groups
 		var overlays = {			
 			"Locations - Obelisks": obeliskGroup,
 			"Locations - Travel Guild": travelGuildGroup,
-			"Locations - Cities": adminCityGroup,
+			"Locations - Admin Cities": adminCityGroup,
 			"Locations - RP Hubs": hubGroup,
-			"Locations - Markets": portalGroup,
+			"Locations - Portal Destinations": portalGroup,
+			"Locations - Arcane University": universityGroup
 		};
 
 		//Location - Obelisks
@@ -72,23 +74,28 @@
 		L.marker([-568.75,598], {icon: obeliskIcon}).bindPopup("<img class='border-fix' src='data/images/markers/obelisks/obelisk4.png' width='300'></img><p align='center'>Obelisk: Temple of Frost</p>").addTo(obeliskGroup),
 
 		//Locations - Travel Guild
-		L.marker([-1446.5,725.25], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Shattered Bridge").addTo(travelGuildGroup),
-		L.marker([-1326.75,1139.5], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Lookout's Hook").addTo(travelGuildGroup),
+		L.marker([-1446.5,725.25], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/c/c1/TG-shattered_bridge.png' width='300'></img><p align='center'>Travel Guild: Shattered Bridge</p>").addTo(travelGuildGroup),
+		L.marker([-1326.75,1139.5], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/f/ff/Tg-lookout_hook.png' width='300'></img><p align='center'>Travel Guild: Lookout's Hook</p>").addTo(travelGuildGroup),
 		L.marker([-1110.25,671.25], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Muriela's Hope").addTo(travelGuildGroup),
 		L.marker([-1154.25,1358.5], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/TG-BayofHulks.jpg' width='300'></img><p align='center'>Travel Guild: Bay of Hulks</p>").addTo(travelGuildGroup),
-		L.marker([-1014,1583.5], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Tortuga").addTo(travelGuildGroup),
+		L.marker([-1014,1583.5], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/5/56/Tg-tortuga.png' width='300'></img><p align='center'>Travel Guild: Tortuga</p>").addTo(travelGuildGroup),
 		L.marker([-941,790.75], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/TG-WolfTribe.jpg' width='300'></img><p align='center'>Travel Guild: Wolf Tribe Village</p>").addTo(travelGuildGroup),
-		L.marker([-1084.75,358.75], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Réalta Nua").addTo(travelGuildGroup);
+		L.marker([-1107,385], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/6/6d/Tg-sepermeru.png' width='300'></img><p align='center'>Travel Guild: Sepermeru</p>").addTo(travelGuildGroup);
 			
 		//Locations - Admin Cities
-		L.marker([-1023.25,1589], {icon: adminCityIcon}).bindPopup("Tortuga").addTo(adminCityGroup),
+		L.marker([-1023.25,1589], {icon: adminCityIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/8/8a/Tortuga.png' width='300'></img><p align='center'>Tortuga <a href='https://www.fromashesrisen.com/wiki/Tortuga'>(Wiki link)</a></p>").addTo(adminCityGroup),
+		L.marker([-630.5,442], {icon: adminCityIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/0/0a/Shadowmourne.png' width='300'></img><p align='center'>Shadowmourne <a href='https://www.fromashesrisen.com/wiki/Shadowmourne'>(Wiki link)</a></p>").addTo(adminCityGroup),
 		L.marker([-929.25,782.25], {icon: adminCityIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/WolfTribeVillage.jpg' width='300'></img><p align='center'>Wolf Tribe Village <a href='https://www.fromashesrisen.com/wiki/Wolf_Tribe_Village'>(Wiki link)</a></p><ul><li>Blacksmith (Character)</li><li>Map Room</li><li>Tavern and Inn</li><li>Arena</li><li>Jhebbal Sag Shamanic Sanctuary</li><li>Vendors: All AoC, Pet Vendor, Weapons & Repair Kits</li></ul>").addTo(adminCityGroup),
-		L.marker([-1084.75,358.75], {icon: adminCityIcon}).bindPopup("Réalta Nua").addTo(adminCityGroup),
-		L.marker([-838,604.25], {icon: adminCityIcon}).bindPopup("The Tower of Order").addTo(adminCityGroup),
-		L.marker([-1185.25,627], {icon: adminCityIcon}).bindPopup("The University of the Arcane").addTo(adminCityGroup);
+		L.marker([-1084.75,358.75], {icon: adminCityIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/c/cf/Realtanua.png' width='300'></img><p align='center'>Réalta Nua <a href='https://www.fromashesrisen.com/wiki/Realta_Nua'>(Wiki link)</a></p>").addTo(adminCityGroup);
+
+		//Locations - University Faction
+		L.marker([-838,604.25], {icon: gemIcon}).bindPopup("The Tower of Order").addTo(universityGroup),
+		L.marker([-1185.25,627], {icon: gemIcon}).bindPopup("The University of the Arcane").addTo(universityGroup);
 
 		//Locations - Rp Hubs
-		L.marker([-1010.25,502], {icon: hubIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/e/e4/Datura.png' width='300'></img><p align='center'>Poison Kingdom of Datura <a href='https://www.fromashesrisen.com/wiki/Poison_Kingdom_of_Datura'>(Wiki link)</a></p><ul><li>Map Room</li><li>Tavern, Inn, Hospital</li><li>Outdoor Market (DLC Armor/Decor, Materials, Alchemy, Milk, Sandstorm Masks)</li></ul>").addTo(hubGroup);
+		L.marker([-1010.25,502], {icon: hubIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/e/e4/Datura.png' width='300'></img><p align='center'>Poison Kingdom of Datura <a href='https://www.fromashesrisen.com/wiki/Poison_Kingdom_of_Datura'>(Wiki link)</a></p><ul><li>Map Room</li><li>Tavern, Inn, Hospital</li><li>Outdoor Market (DLC Armor/Decor, Materials, Alchemy, Milk, Sandstorm Masks)</li></ul>").addTo(hubGroup),
+		L.marker([-983,352.52], {icon: hubIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/e/ea/20190409225442_1.jpg' width='300'></img><p align='center'>The Free City of Qatal <a href='https://www.fromashesrisen.com/wiki/The_Qatal'>(Wiki link)</a></p><ul><li>Rentable Homes</li><li>Tavern and Inn</li><li>Clan Embassies</li><li>Vendors: Potions, Repair kits, Gathering tools, pets and rare items</li></ul>").addTo(hubGroup),
+		L.marker([-1048,898], {icon: hubIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/4/47/Trader%27s_Rest.png' width='300'></img><p align='center'>Trader's Rest <a href='https://www.fromashesrisen.com/wiki/Trader%27s_Rest'>(Wiki link)</a></p><ul><li>Bi-Weekly Events</li><li>Tavern and Inn</li><li>PvP Arena</li><li>Regular duels and drinking games</li></ul>").addTo(hubGroup);
 
 		//Locations - POrtal destinations
 		L.marker([-1000,1000], {icon: portalIcon}).bindPopup("placeholder").addTo(portalGroup);
@@ -104,8 +111,13 @@
 		}	
 		var groupedLocations = {
 			"Locations": {
-			 	"<img src='data/images/icons/admincity.png' width='16' height='16'></img> Cities": adminCityGroup,
+			 	"<img src='data/images/icons/admincity.png' width='16' height='16'></img> Admin Cities": adminCityGroup,
 			 	"<img src='data/images/icons/hubcity.png' width='16' height='16'></img> RP Hubs": hubGroup
+			}
+		}
+		var factionLocations = {
+			"Taluvian Factions": {
+			 	"<img src='data/images/icons/gemIcon.png' width='16' height='16'></img> Arcane University": universityGroup
 			}
 		}
 
@@ -118,15 +130,16 @@
 
 		var layerControlLocations = L.control.groupedLayers(null, groupedLocations, options);
 		var layerControlFastTravel = L.control.groupedLayers(null, fastTravelLocations, options);
+		var layerControlFactions = L.control.groupedLayers(null, factionLocations, options);
 
 		//OLD FILTERING
 		//layerControlResources.addTo(map);
-		//layerControlThralls.addTo(map);
+		layerControlFactions.addTo(map);
 		layerControlFastTravel.addTo(map);
 		layerControlLocations.addTo(map);
 		L.DomEvent.disableClickPropagation(layerControlLocations._container);
 		L.DomEvent.disableClickPropagation(layerControlFastTravel._container);
-		//L.DomEvent.disableClickPropagation(layerControlResources._container);
+		L.DomEvent.disableClickPropagation(layerControlFactions._container);
 		
 
 		//Add Default Filters

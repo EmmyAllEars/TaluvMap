@@ -48,7 +48,7 @@ var templeIcon = L.icon({
 	popupAnchor:	[0, -10]
 });
 
-var marketIcon = L.icon({
+var gemIcon = L.icon({
 	iconUrl: 'data/images/icons/gemIcon.png',
 				
 	iconSize:	[32,32],
