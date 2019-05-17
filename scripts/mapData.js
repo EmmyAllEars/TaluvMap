@@ -76,10 +76,11 @@
 		//Locations - Travel Guild
 		L.marker([-1446.5,725.25], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/c/c1/TG-shattered_bridge.png' width='300'></img><p align='center'>Travel Guild: Shattered Bridge</p>").addTo(travelGuildGroup),
 		L.marker([-1326.75,1139.5], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/f/ff/Tg-lookout_hook.png' width='300'></img><p align='center'>Travel Guild: Lookout's Hook</p>").addTo(travelGuildGroup),
-		L.marker([-1110.25,671.25], {icon: TravelGuildIcon}).bindPopup("Travel Guild: Muriela's Hope").addTo(travelGuildGroup),
+		L.marker([-1110.25,671.25], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/7/7a/Tg-murielashope.png' width='300'></img><p align='center'>Travel Guild: Muriela's Hope</p>").addTo(travelGuildGroup),
 		L.marker([-1154.25,1358.5], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/TG-BayofHulks.jpg' width='300'></img><p align='center'>Travel Guild: Bay of Hulks</p>").addTo(travelGuildGroup),
 		L.marker([-1014,1583.5], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/5/56/Tg-tortuga.png' width='300'></img><p align='center'>Travel Guild: Tortuga</p>").addTo(travelGuildGroup),
 		L.marker([-941,790.75], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='data/images/markers/locations/TG-WolfTribe.jpg' width='300'></img><p align='center'>Travel Guild: Wolf Tribe Village</p>").addTo(travelGuildGroup),
+		L.marker([-637,456], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/e/e2/Tg-shadowmourne.png' width='300'></img><p align='center'>Travel Guild: Shadowmourne</p>").addTo(travelGuildGroup),
 		L.marker([-1107,385], {icon: TravelGuildIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/6/6d/Tg-sepermeru.png' width='300'></img><p align='center'>Travel Guild: Sepermeru</p>").addTo(travelGuildGroup);
 			
 		//Locations - Admin Cities
