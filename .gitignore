@@ -1,0 +1,19 @@
+###################
+#.gitignore       #
+###################
+
+############
+# SO files #
+############
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+###################
+# temporary files #
+###################
+tmp/**/* 
+*.tmp
+*.temp
+styles/groupedlayercontrol-beta.css
+index-beta.html
