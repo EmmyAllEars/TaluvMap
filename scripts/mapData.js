@@ -90,7 +90,7 @@
 		L.marker([-1084.75,358.75], {icon: adminCityIcon}).bindPopup("<img class='border-fix' src='https://www.fromashesrisen.com/mediawiki/images/c/cf/Realtanua.png' width='300'></img><p align='center'>Réalta Nua <a href='https://www.fromashesrisen.com/wiki/Realta_Nua'>(Wiki link)</a></p>").addTo(adminCityGroup);
 
 		//Locations - University Faction
-		L.marker([-838,604.25], {icon: gemIcon}).bindPopup("The Tower of Order").addTo(universityGroup),
+		L.marker([-838,604.25], {icon: gemIcon}).bindPopup("Tower of the Order").addTo(universityGroup),
 		L.marker([-1185.25,627], {icon: gemIcon}).bindPopup("The University of the Arcane").addTo(universityGroup);
 
 		//Locations - Rp Hubs
